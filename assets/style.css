@@ -1,135 +1,120 @@
 body {
-    background-color: #0000b3;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    font-family:Arial, Helvetica, sans-serif;
-    
+  background-color: #0000b3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    flex:1;
-    width: 100%;
-    background-color: #3A3A3A;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    
+  flex: 1;
+  width: 100%;
+  background-color: #3a3a3a;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-
-
 .nav-menu {
-    flex:1;
-    width: 33%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+  flex: 1;
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    font-size: 17px;
-    color: #D6D6D6;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  font-size: 17px;
+  color: #d6d6d6;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-link:hover {
-    color:white;
-    text-shadow: 0px 0px 20px white;
-    }
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
 
 #small-logo {
-    background-image: url(/assets/images/peteweig-Logo_13_R2A_small.png);
-    height: 44px;
-    width: auto;
-    background-size: cover;
+  background-image: url("./images/peteweig-Logo_13_R2A_small.png");
+  height: 44px;
+  width: auto;
+  background-size: cover;
 }
 
 .cover-photos {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    height: 800px;
-    width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 800px;
+  width: auto;
 }
 
 #pbc-photo-1 {
-    height: 800px;
-    flex: 1;
-    background-image: url("/assets/images/pbc_photo_1.png");
-    background-position: center;
-    background-size: cover;
-    transform: rotateY(180deg);
-    opacity: .6;
+  height: 800px;
+  flex: 1;
+  background-image: url("./images/pbc_photo_1.png");
+  background-position: center;
+  background-size: cover;
+  transform: rotateY(180deg);
+  opacity: 0.6;
 }
 
 #beach {
-    height: 800px;
-    flex: 1;
-    background-image: url("/assets/images/beach.png");
-    background-position: center;
-    background-size: cover;
-    opacity: .6;
-
+  height: 800px;
+  flex: 1;
+  background-image: url("./images/beach.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
 }
 
 #pbc-logo {
-    position: absolute;
-    left:50;
-    max-width: 100%;
-    max-height: 100%;
+  position: absolute;
+  left: 50;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-
-
-
-
-
-
-
 main {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .card {
-    display: flex;
-    flex: 1;
-    background-color: blue;
-    border: 3px solid red;
-    margin:50px;
-    padding: 25px;
-    font-size:50px;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
+  display: flex;
+  flex: 1;
+  background-color: blue;
+  border: 3px solid red;
+  margin: 50px;
+  padding: 25px;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
 }
 
 .card:hover {
-    flex: 1 1;
-    background-color: yellow;
-    border: 3px solid red;
-    margin:50px;
-    padding: 25px;
-    font-size:50px;
-    text-align: center;
-    text-shadow: darkgreen;
-    border-radius: 500px;
+  flex: 1 1;
+  background-color: yellow;
+  border: 3px solid red;
+  margin: 50px;
+  padding: 25px;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: darkgreen;
+  border-radius: 500px;
 }
-
-
-
