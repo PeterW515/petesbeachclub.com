@@ -92,8 +92,9 @@ nav {
   justify-content: center;
   align-items: center;
   flex: 1;
-  height: 800px;
+  height: auto;
   width: auto;
+  position: relative;
 }
 
 #pbc-photo-1 {
@@ -166,4 +167,7 @@ main {
     left: 0px;
   }
 
-}
+
+
+  }
+  
