@@ -29,8 +29,10 @@ nav {
   justify-content: center;
 }
 
+
+
 .nav-link-dropdown {
-  display: flex;
+  display: none;
   justify-content:left;
   align-items: flex-start;
   height: 44px;
@@ -44,8 +46,12 @@ nav {
   flex-wrap: wrap;
   flex-direction: column;
   line-height:5px;
-  display: none;
+  background-color: #3a3a3a;
+  border: none;
+  
+
 }
+
 .nav-link-dropdown span{
   font-size: 30px;
 }
@@ -75,7 +81,22 @@ nav {
   padding-right: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: none;
 
+}
+.dropdown-option {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  font-size: 17px;
+  color: #d6d6d6;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
 }
 
 .nav-link:hover, .nav-link-dropdown:hover {
@@ -176,7 +197,5 @@ main {
     top:10px;
   }
 
-
-
   }
-  
+
